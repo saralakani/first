@@ -83,4 +83,4 @@ for n in range(len(cdr)):
     sheet1.write(i, 5, cdr[n].get('ClassOfService'))
     sheet1.write(i, 6, cdr[n].get('d1'))
     sheet1.write(i, 7, cdr[n].get('d2'))
-book.save("%s.xls"%name)
+book.save("Documents/%s.xls"%name)
