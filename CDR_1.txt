@@ -1,0 +1,283 @@
+ 
+tsc@ms01.CMS3_MTRL01$ findCDR -m 9052788225 -m 9052734246
+
+
+===============   CDRs for (ms01)  =================
+
+
+   Tue Jul 12 06:18:09 2016 SCE:MSG create_aacallermenu_cdr.c:45
+CDR_AACALLERMENU   -- -- ---- NNI=1 port=25 mbox=9052788225 CDRSID=10.92.11.116.0xd7c3845753260100 dest_type=M caller_digits=1 COS=675 dest_telno=9052734246 part=0
+   Tue Jul 12 06:18:40 2016 SCE:MSG create_aacallermenu_cdr.c:45
+CDR_AACALLERMENU   -- -- ---- NNI=1 port=25 mbox=9052788225 CDRSID=10.92.11.116.0xd7c3845753260100 dest_type=T caller_digits=2 COS=675 dest_telno=4163533487 part=0
+   Wed Jul 13 05:17:25 2016 SCE:MSG create_aacallermenu_cdr.c:45
+CDR_AACALLERMENU   -- -- ---- NNI=1 port=209 mbox=9052788225 CDRSID=10.92.11.116.0x1d078657362f0100 dest_type=M caller_digits=1 COS=675 dest_telno=9052734246 part=0
+   Wed Jul 13 05:18:05 2016 SCE:MSG create_aacallermenu_cdr.c:45
+CDR_AACALLERMENU   -- -- ---- NNI=1 port=209 mbox=9052788225 CDRSID=10.92.11.116.0x1d078657362f0100 dest_type=T caller_digits=2 COS=675 dest_telno=4163533487 part=0
+   Thu Jul 14 05:56:24 2016 SCE:MSG create_aacallermenu_cdr.c:45
+CDR_AACALLERMENU   -- -- ---- NNI=1 port=937 mbox=9052788225 CDRSID=10.92.11.116.0xbb618757ca2a0100 dest_type=M caller_digits=1 COS=675 dest_telno=9052734246 part=0
+   Thu Jul 14 05:57:00 2016 SCE:MSG create_aacallermenu_cdr.c:45
+CDR_AACALLERMENU   -- -- ---- NNI=1 port=937 mbox=9052788225 CDRSID=10.92.11.116.0xbb618757ca2a0100 dest_type=T caller_digits=2 COS=675 dest_telno=4163533487 part=0
+   Thu Jul 14 07:09:26 2016 sip_notif sip_notif.C:214
+CDR_DATACOLLECTIONMWI   -- -- ---- NNI=1 mbox=9052734246 called=9052734246 sub_min=na attempts=5 reqMWI=0 result=1 notif_type=2 notif_proto=6 n_unheard=0 proxy_nni=-1
+
+
+===============   CDRs for (ms02)  =================
+
+
+
+
+===============   CDRs for (ms03)  =================
+
+
+   Tue Jul 12 06:18:34 2016 Sfc CDRMsgReceive.c:517
+CDR_MSGRECEIVE   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 msg_id=1077 CDRSID=10.92.11.116.0xd7c3845753260100 n_comps=1 msg_bytes=16411 voice_secs=7 fax_pages=0 text_bytes=0 binary_bytes=0 COS=356 snd_rcv_type=7 msg_stat=2 orig_node=1 priority=2 subscriber=9052734246 originator=4163683406@message.bell.ca msg_attr=1
+   Tue Jul 12 06:18:34 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0xfac38457c7980300 COS=356 n_unheard=3 n_heard=0 n_archived=0 count_type=1 client_type=ACDS part=0
+   Tue Jul 12 06:18:34 2016 Sfc CDRPasswordTest.c:186
+CDR_PASSWORDTEST   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0xfac38457c7980300 type=0 result=0 client_type=ACDS calling= orig= redirect= called= 
+   Tue Jul 12 06:18:35 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0xfac38457c7980300 COS=356 n_unheard=3 n_heard=0 n_archived=0 count_type=2 client_type=ACDS part=0
+   Tue Jul 12 06:18:35 2016 esa_smpp smpp.C:125
+CDR_DATACOLLECTIONMWI   -- -- ---- NNI=303 mbox=9052734246 called=9052734246 sub_min=na attempts=10 reqMWI=1 result=1 notif_type=5 notif_proto=0 n_unheard=3 proxy_nni=0
+   Tue Jul 12 06:20:59 2016 Sfc CDRMsgReceive.c:517
+CDR_MSGRECEIVE   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 msg_id=1078 CDRSID=10.92.11.116.0x47c48457ddfd0500 n_comps=1 msg_bytes=9825 voice_secs=3 fax_pages=0 text_bytes=0 binary_bytes=0 COS=356 snd_rcv_type=1 msg_stat=2 orig_node=1 priority=1 subscriber=9052734246 originator=9054745800 msg_attr=1
+   Tue Jul 12 06:20:59 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0x8bc48457cf980300 COS=356 n_unheard=4 n_heard=0 n_archived=0 count_type=1 client_type=ACDS part=0
+   Tue Jul 12 06:20:59 2016 Sfc CDRPasswordTest.c:186
+CDR_PASSWORDTEST   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0x8bc48457cf980300 type=0 result=0 client_type=ACDS calling= orig= redirect= called= 
+   Tue Jul 12 06:21:00 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0x8bc48457cf980300 COS=356 n_unheard=4 n_heard=0 n_archived=0 count_type=2 client_type=ACDS part=0
+   Tue Jul 12 06:21:00 2016 esa_smpp smpp.C:125
+CDR_DATACOLLECTIONMWI   -- -- ---- NNI=303 mbox=9052734246 called=9052734246 sub_min=na attempts=10 reqMWI=1 result=1 notif_type=5 notif_proto=0 n_unheard=4 proxy_nni=0
+   Tue Jul 12 06:59:30 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0x92cd84575c990300 COS=356 n_unheard=4 n_heard=0 n_archived=0 count_type=1 client_type=WVM part=0
+   Tue Jul 12 06:59:30 2016 Sfc CDRPasswordTest.c:186
+CDR_PASSWORDTEST   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0x92cd84575c990300 type=0 result=0 client_type=WVM calling= orig= redirect= called= 
+   Tue Jul 12 06:59:33 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0x92cd84575c990300 COS=356 n_unheard=4 n_heard=0 n_archived=0 count_type=2 client_type=WVM part=0
+   Tue Jul 12 06:59:37 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0x99cd84575d990300 COS=356 n_unheard=4 n_heard=0 n_archived=0 count_type=1 client_type=WVM part=0
+   Tue Jul 12 06:59:37 2016 Sfc CDRPasswordTest.c:186
+CDR_PASSWORDTEST   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0x99cd84575d990300 type=0 result=0 client_type=WVM calling= orig= redirect= called= 
+   Tue Jul 12 06:59:37 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0x99cd84575d990300 COS=356 n_unheard=3 n_heard=0 n_archived=1 count_type=2 client_type=WVM part=0
+   Tue Jul 12 06:59:43 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0x9fcd84575f990300 COS=356 n_unheard=3 n_heard=0 n_archived=1 count_type=1 client_type=WVM part=0
+   Tue Jul 12 06:59:43 2016 Sfc CDRPasswordTest.c:186
+CDR_PASSWORDTEST   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0x9fcd84575f990300 type=0 result=0 client_type=WVM calling= orig= redirect= called= 
+   Tue Jul 12 06:59:43 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0x9fcd84575f990300 COS=356 n_unheard=2 n_heard=0 n_archived=2 count_type=2 client_type=WVM part=0
+   Tue Jul 12 06:59:53 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0xa9cd845761990300 COS=356 n_unheard=2 n_heard=0 n_archived=2 count_type=1 client_type=WVM part=0
+   Tue Jul 12 06:59:53 2016 Sfc CDRPasswordTest.c:186
+CDR_PASSWORDTEST   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0xa9cd845761990300 type=0 result=0 client_type=WVM calling= orig= redirect= called= 
+   Tue Jul 12 06:59:53 2016 Sfc CDRMsgDelete.c:680
+CDR_MSGDELETED   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 msg_id=1075 CDRSID=10.92.11.116.0xa9cd845761990300 t=0x57837a17 voice_secs=8 fax_pages=0 text_bytes=0 binary_bytes=0 snd_rcv_type=0 delivery_stage=0 reason=0 msg_type=0
+   Tue Jul 12 06:59:53 2016 Sfc CDRMsgDelete.c:680
+CDR_MSGDELETED   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 msg_id=1076 CDRSID=10.92.11.116.0xa9cd845761990300 t=0x57837a51 voice_secs=7 fax_pages=0 text_bytes=0 binary_bytes=0 snd_rcv_type=1 delivery_stage=0 reason=0 msg_type=0
+   Tue Jul 12 06:59:53 2016 Sfc CDRMsgDelete.c:680
+CDR_MSGDELETED   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 msg_id=1077 CDRSID=10.92.11.116.0xa9cd845761990300 t=0x5784c3fa voice_secs=7 fax_pages=0 text_bytes=0 binary_bytes=0 snd_rcv_type=0 delivery_stage=2 reason=0 msg_type=0
+   Tue Jul 12 06:59:53 2016 Sfc CDRMsgDelete.c:680
+CDR_MSGDELETED   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 msg_id=1078 CDRSID=10.92.11.116.0xa9cd845761990300 t=0x5784c48b voice_secs=3 fax_pages=0 text_bytes=0 binary_bytes=0 snd_rcv_type=1 delivery_stage=2 reason=0 msg_type=0
+   Tue Jul 12 06:59:53 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0xa9cd845761990300 COS=356 n_unheard=0 n_heard=0 n_archived=0 count_type=2 client_type=WVM part=0
+   Tue Jul 12 06:59:55 2016 esa_smpp smpp.C:125
+CDR_DATACOLLECTIONMWI   -- -- ---- NNI=303 mbox=9052734246 called=9052734246 sub_min=na attempts=10 reqMWI=0 result=2 notif_type=5 notif_proto=0 n_unheard=0 proxy_nni=0
+   Tue Jul 12 07:29:55 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0xb3d48457289a0300 COS=356 n_unheard=0 n_heard=0 n_archived=0 count_type=1 client_type=ACDS part=0
+   Tue Jul 12 07:29:55 2016 Sfc CDRPasswordTest.c:186
+CDR_PASSWORDTEST   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0xb3d48457289a0300 type=0 result=0 client_type=ACDS calling= orig= redirect= called= 
+   Tue Jul 12 07:29:55 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0xb3d48457289a0300 COS=356 n_unheard=0 n_heard=0 n_archived=0 count_type=2 client_type=ACDS part=0
+   Tue Jul 12 07:29:55 2016 esa_smpp smpp.C:125
+CDR_DATACOLLECTIONMWI   -- -- ---- NNI=303 mbox=9052734246 called=9052734246 sub_min=na attempts=9 reqMWI=0 result=1 notif_type=5 notif_proto=0 n_unheard=0 proxy_nni=0
+   Wed Jul 13 05:17:55 2016 Sfc CDRMsgReceive.c:517
+CDR_MSGRECEIVE   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 msg_id=1079 CDRSID=10.92.11.116.0x1d078657362f0100 n_comps=1 msg_bytes=16999 voice_secs=7 fax_pages=0 text_bytes=0 binary_bytes=0 COS=356 snd_rcv_type=7 msg_stat=2 orig_node=1 priority=2 subscriber=9052734246 originator=6475221614@message.bell.ca msg_attr=1
+   Wed Jul 13 05:17:55 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0x43078657dc170300 COS=356 n_unheard=1 n_heard=0 n_archived=0 count_type=1 client_type=ACDS part=0
+   Wed Jul 13 05:17:55 2016 Sfc CDRPasswordTest.c:186
+CDR_PASSWORDTEST   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0x43078657dc170300 type=0 result=0 client_type=ACDS calling= orig= redirect= called= 
+   Wed Jul 13 05:17:56 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0x43078657dc170300 COS=356 n_unheard=1 n_heard=0 n_archived=0 count_type=2 client_type=ACDS part=0
+   Wed Jul 13 05:17:56 2016 esa_smpp smpp.C:125
+CDR_DATACOLLECTIONMWI   -- -- ---- NNI=303 mbox=9052734246 called=9052734246 sub_min=na attempts=10 reqMWI=1 result=1 notif_type=5 notif_proto=0 n_unheard=1 proxy_nni=0
+   Wed Jul 13 05:17:55 2016 sip_notif sip_notif.C:214
+CDR_DATACOLLECTIONMWI   -- -- ---- NNI=3 mbox=9052734246 called=9052734246 sub_min=na attempts=5 reqMWI=1 result=1 notif_type=2 notif_proto=6 n_unheard=0 proxy_nni=-1
+   Wed Jul 13 05:21:00 2016 Sfc CDRMsgReceive.c:517
+CDR_MSGRECEIVE   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 msg_id=1080 CDRSID=10.92.11.116.0x94078657c9060500 n_comps=1 msg_bytes=12374 voice_secs=5 fax_pages=0 text_bytes=0 binary_bytes=0 COS=356 snd_rcv_type=1 msg_stat=2 orig_node=1 priority=1 subscriber=9052734246 originator=9054745800 msg_attr=1
+   Wed Jul 13 05:21:00 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0xfc078657e3170300 COS=356 n_unheard=2 n_heard=0 n_archived=0 count_type=1 client_type=ACDS part=0
+   Wed Jul 13 05:21:00 2016 Sfc CDRPasswordTest.c:186
+CDR_PASSWORDTEST   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0xfc078657e3170300 type=0 result=0 client_type=ACDS calling= orig= redirect= called= 
+   Wed Jul 13 05:21:01 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0xfc078657e3170300 COS=356 n_unheard=2 n_heard=0 n_archived=0 count_type=2 client_type=ACDS part=0
+   Wed Jul 13 05:21:01 2016 esa_smpp smpp.C:125
+CDR_DATACOLLECTIONMWI   -- -- ---- NNI=303 mbox=9052734246 called=9052734246 sub_min=na attempts=10 reqMWI=1 result=1 notif_type=5 notif_proto=0 n_unheard=2 proxy_nni=0
+   Thu Jul 14 05:56:55 2016 Sfc CDRMsgReceive.c:517
+CDR_MSGRECEIVE   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 msg_id=1081 CDRSID=10.92.11.116.0xbb618757ca2a0100 n_comps=1 msg_bytes=28172 voice_secs=13 fax_pages=0 text_bytes=0 binary_bytes=0 COS=356 snd_rcv_type=7 msg_stat=2 orig_node=1 priority=2 subscriber=9052734246 originator=4163683406@message.bell.ca msg_attr=1
+   Thu Jul 14 05:56:55 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0xe7618757df900300 COS=356 n_unheard=3 n_heard=0 n_archived=0 count_type=1 client_type=ACDS part=0
+   Thu Jul 14 05:56:55 2016 Sfc CDRPasswordTest.c:186
+CDR_PASSWORDTEST   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0xe7618757df900300 type=0 result=0 client_type=ACDS calling= orig= redirect= called= 
+   Thu Jul 14 05:56:56 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0xe7618757df900300 COS=356 n_unheard=3 n_heard=0 n_archived=0 count_type=2 client_type=ACDS part=0
+   Thu Jul 14 05:56:56 2016 esa_smpp smpp.C:125
+CDR_DATACOLLECTIONMWI   -- -- ---- NNI=303 mbox=9052734246 called=9052734246 sub_min=na attempts=10 reqMWI=1 result=1 notif_type=5 notif_proto=0 n_unheard=3 proxy_nni=0
+   Thu Jul 14 05:59:00 2016 Sfc CDRMsgReceive.c:517
+CDR_MSGRECEIVE   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 msg_id=1082 CDRSID=10.92.11.116.0x1d628757d22a0100 n_comps=1 msg_bytes=13550 voice_secs=5 fax_pages=0 text_bytes=0 binary_bytes=0 COS=356 snd_rcv_type=1 msg_stat=2 orig_node=1 priority=1 subscriber=9052734246 originator=9054745800 msg_attr=1
+   Thu Jul 14 05:59:00 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0x64628757e7900300 COS=356 n_unheard=4 n_heard=0 n_archived=0 count_type=1 client_type=ACDS part=0
+   Thu Jul 14 05:59:00 2016 Sfc CDRPasswordTest.c:186
+CDR_PASSWORDTEST   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0x64628757e7900300 type=0 result=0 client_type=ACDS calling= orig= redirect= called= 
+   Thu Jul 14 05:59:00 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0x64628757e7900300 COS=356 n_unheard=4 n_heard=0 n_archived=0 count_type=2 client_type=ACDS part=0
+   Thu Jul 14 05:59:00 2016 esa_smpp smpp.C:125
+CDR_DATACOLLECTIONMWI   -- -- ---- NNI=303 mbox=9052734246 called=9052734246 sub_min=na attempts=10 reqMWI=1 result=1 notif_type=5 notif_proto=0 n_unheard=4 proxy_nni=0
+   Thu Jul 14 07:09:05 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0xd1728757e1910300 COS=356 n_unheard=4 n_heard=0 n_archived=0 count_type=1 client_type=WVM part=0
+   Thu Jul 14 07:09:05 2016 Sfc CDRPasswordTest.c:186
+CDR_PASSWORDTEST   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0xd1728757e1910300 type=0 result=0 client_type=WVM calling= orig= redirect= called= 
+   Thu Jul 14 07:09:06 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0xd1728757e1910300 COS=356 n_unheard=4 n_heard=0 n_archived=0 count_type=2 client_type=WVM part=0
+   Thu Jul 14 07:09:09 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0xd5728757e3910300 COS=356 n_unheard=4 n_heard=0 n_archived=0 count_type=1 client_type=WVM part=0
+   Thu Jul 14 07:09:09 2016 Sfc CDRPasswordTest.c:186
+CDR_PASSWORDTEST   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0xd5728757e3910300 type=0 result=0 client_type=WVM calling= orig= redirect= called= 
+   Thu Jul 14 07:09:09 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0xd5728757e3910300 COS=356 n_unheard=3 n_heard=0 n_archived=1 count_type=2 client_type=WVM part=0
+   Thu Jul 14 07:09:13 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0xd9728757e6910300 COS=356 n_unheard=3 n_heard=0 n_archived=1 count_type=1 client_type=WVM part=0
+   Thu Jul 14 07:09:13 2016 Sfc CDRPasswordTest.c:186
+CDR_PASSWORDTEST   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0xd9728757e6910300 type=0 result=0 client_type=WVM calling= orig= redirect= called= 
+   Thu Jul 14 07:09:13 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0xd9728757e6910300 COS=356 n_unheard=2 n_heard=0 n_archived=2 count_type=2 client_type=WVM part=0
+   Thu Jul 14 07:09:26 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0xe6728757e9910300 COS=356 n_unheard=2 n_heard=0 n_archived=2 count_type=1 client_type=WVM part=0
+   Thu Jul 14 07:09:26 2016 Sfc CDRPasswordTest.c:186
+CDR_PASSWORDTEST   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0xe6728757e9910300 type=0 result=0 client_type=WVM calling= orig= redirect= called= 
+   Thu Jul 14 07:09:26 2016 Sfc CDRMsgDelete.c:680
+CDR_MSGDELETED   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 msg_id=1079 CDRSID=10.92.11.116.0xe6728757e9910300 t=0x57860743 voice_secs=7 fax_pages=0 text_bytes=0 binary_bytes=0 snd_rcv_type=0 delivery_stage=0 reason=0 msg_type=0
+   Thu Jul 14 07:09:26 2016 Sfc CDRMsgDelete.c:680
+CDR_MSGDELETED   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 msg_id=1080 CDRSID=10.92.11.116.0xe6728757e9910300 t=0x578607fc voice_secs=5 fax_pages=0 text_bytes=0 binary_bytes=0 snd_rcv_type=1 delivery_stage=0 reason=0 msg_type=0
+   Thu Jul 14 07:09:26 2016 Sfc CDRMsgDelete.c:680
+CDR_MSGDELETED   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 msg_id=1081 CDRSID=10.92.11.116.0xe6728757e9910300 t=0x578761e7 voice_secs=13 fax_pages=0 text_bytes=0 binary_bytes=0 snd_rcv_type=0 delivery_stage=2 reason=0 msg_type=0
+   Thu Jul 14 07:09:26 2016 Sfc CDRMsgDelete.c:680
+CDR_MSGDELETED   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 msg_id=1082 CDRSID=10.92.11.116.0xe6728757e9910300 t=0x57876264 voice_secs=5 fax_pages=0 text_bytes=0 binary_bytes=0 snd_rcv_type=1 delivery_stage=2 reason=0 msg_type=0
+   Thu Jul 14 07:09:26 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0xe6728757e9910300 COS=356 n_unheard=0 n_heard=0 n_archived=0 count_type=2 client_type=WVM part=0
+   Thu Jul 14 07:09:26 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0xe6728757ea910300 COS=356 n_unheard=0 n_heard=0 n_archived=0 count_type=1 client_type=ACDS part=0
+   Thu Jul 14 07:09:26 2016 Sfc CDRPasswordTest.c:186
+CDR_PASSWORDTEST   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0xe6728757ea910300 type=0 result=0 client_type=ACDS calling= orig= redirect= called= 
+   Thu Jul 14 07:09:26 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0xe6728757ea910300 COS=356 n_unheard=0 n_heard=0 n_archived=0 count_type=2 client_type=ACDS part=0
+   Thu Jul 14 07:09:26 2016 esa_smpp smpp.C:125
+CDR_DATACOLLECTIONMWI   -- -- ---- NNI=303 mbox=9052734246 called=9052734246 sub_min=na attempts=10 reqMWI=0 result=1 notif_type=5 notif_proto=0 n_unheard=0 proxy_nni=0
+   Thu Jul 14 07:09:38 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0xf2728757ee910300 COS=356 n_unheard=0 n_heard=0 n_archived=0 count_type=1 client_type=WVM part=0
+   Thu Jul 14 07:09:38 2016 Sfc CDRPasswordTest.c:186
+CDR_PASSWORDTEST   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0xf2728757ee910300 type=0 result=0 client_type=WVM calling= orig= redirect= called= 
+   Thu Jul 14 07:09:39 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0xf2728757ee910300 COS=356 n_unheard=0 n_heard=0 n_archived=0 count_type=2 client_type=WVM part=0
+   Fri Jul 15 05:09:43 2016 Sfc CDRMsgReceive.c:517
+CDR_MSGRECEIVE   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 msg_id=1083 CDRSID=10.92.11.116.0x2fa88857c4d00400 n_comps=1 msg_bytes=17586 voice_secs=7 fax_pages=0 text_bytes=0 binary_bytes=0 COS=356 snd_rcv_type=7 msg_stat=2 orig_node=1 priority=2 subscriber=9052734246 originator=6475221614@message.bell.ca msg_attr=1
+   Fri Jul 15 05:09:43 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0x57a8885787080300 COS=356 n_unheard=1 n_heard=0 n_archived=0 count_type=1 client_type=ACDS part=0
+   Fri Jul 15 05:09:43 2016 Sfc CDRPasswordTest.c:186
+CDR_PASSWORDTEST   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0x57a8885787080300 type=0 result=0 client_type=ACDS calling= orig= redirect= called= 
+   Fri Jul 15 05:09:44 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0x57a8885787080300 COS=356 n_unheard=1 n_heard=0 n_archived=0 count_type=2 client_type=ACDS part=0
+   Fri Jul 15 05:09:44 2016 esa_smpp smpp.C:125
+CDR_DATACOLLECTIONMWI   -- -- ---- NNI=303 mbox=9052734246 called=9052734246 sub_min=na attempts=10 reqMWI=1 result=1 notif_type=5 notif_proto=0 n_unheard=1 proxy_nni=0
+   Fri Jul 15 05:09:43 2016 sip_notif sip_notif.C:214
+CDR_DATACOLLECTIONMWI   -- -- ---- NNI=3 mbox=9052734246 called=9052734246 sub_min=na attempts=5 reqMWI=1 result=1 notif_type=2 notif_proto=6 n_unheard=0 proxy_nni=-1
+   Fri Jul 15 05:14:00 2016 Sfc CDRMsgReceive.c:517
+CDR_MSGRECEIVE   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 msg_id=1084 CDRSID=10.92.11.116.0xa3a88857c8d00400 n_comps=1 msg_bytes=16294 voice_secs=7 fax_pages=0 text_bytes=0 binary_bytes=0 COS=356 snd_rcv_type=1 msg_stat=2 orig_node=1 priority=1 subscriber=9052734246 originator=9054745800 msg_attr=1
+   Fri Jul 15 05:14:00 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0x58a988578e080300 COS=356 n_unheard=2 n_heard=0 n_archived=0 count_type=1 client_type=ACDS part=0
+   Fri Jul 15 05:14:00 2016 Sfc CDRPasswordTest.c:186
+CDR_PASSWORDTEST   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0x58a988578e080300 type=0 result=0 client_type=ACDS calling= orig= redirect= called= 
+   Fri Jul 15 05:14:01 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0x58a988578e080300 COS=356 n_unheard=2 n_heard=0 n_archived=0 count_type=2 client_type=ACDS part=0
+   Fri Jul 15 05:14:01 2016 esa_smpp smpp.C:125
+CDR_DATACOLLECTIONMWI   -- -- ---- NNI=303 mbox=9052734246 called=9052734246 sub_min=na attempts=10 reqMWI=1 result=1 notif_type=5 notif_proto=0 n_unheard=2 proxy_nni=0
+   Mon Jul 18 05:26:54 2016 Sfc CDRMsgReceive.c:517
+CDR_MSGRECEIVE   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 msg_id=1085 CDRSID=10.92.11.116.0xb9a08c579f070400 n_comps=1 msg_bytes=27780 voice_secs=12 fax_pages=0 text_bytes=0 binary_bytes=0 COS=356 snd_rcv_type=7 msg_stat=2 orig_node=1 priority=2 subscriber=9052734246 originator=6475221614@message.bell.ca msg_attr=1
+   Mon Jul 18 05:26:54 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0xdea08c5728df0300 COS=356 n_unheard=3 n_heard=0 n_archived=0 count_type=1 client_type=ACDS part=0
+   Mon Jul 18 05:26:54 2016 Sfc CDRPasswordTest.c:186
+CDR_PASSWORDTEST   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0xdea08c5728df0300 type=0 result=0 client_type=ACDS calling= orig= redirect= called= 
+   Mon Jul 18 05:26:55 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0xdea08c5728df0300 COS=356 n_unheard=3 n_heard=0 n_archived=0 count_type=2 client_type=ACDS part=0
+   Mon Jul 18 05:26:55 2016 esa_smpp smpp.C:125
+CDR_DATACOLLECTIONMWI   -- -- ---- NNI=303 mbox=9052734246 called=9052734246 sub_min=na attempts=10 reqMWI=1 result=1 notif_type=5 notif_proto=0 n_unheard=3 proxy_nni=0
+   Mon Jul 18 05:30:05 2016 Sfc CDRMsgReceive.c:517
+CDR_MSGRECEIVE   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 msg_id=1086 CDRSID=10.92.11.116.0x5da18c57a6140200 n_comps=1 msg_bytes=12374 voice_secs=5 fax_pages=0 text_bytes=0 binary_bytes=0 COS=356 snd_rcv_type=1 msg_stat=2 orig_node=1 priority=1 subscriber=9052734246 originator=9054745800 msg_attr=1
+   Mon Jul 18 05:30:05 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0x9da18c5730df0300 COS=356 n_unheard=4 n_heard=0 n_archived=0 count_type=1 client_type=ACDS part=0
+   Mon Jul 18 05:30:05 2016 Sfc CDRPasswordTest.c:186
+CDR_PASSWORDTEST   -- -- ---- NNI=303 port=-1 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0x9da18c5730df0300 type=0 result=0 client_type=ACDS calling= orig= redirect= called= 
+   Mon Jul 18 05:30:06 2016 Sfc CDRMsgCount.c:147
+CDR_MSGCOUNT   -- -- ---- NNI=303 mbox=9052734246 sess_id=1 CDRSID=10.92.11.116.0x9da18c5730df0300 COS=356 n_unheard=4 n_heard=0 n_archived=0 count_type=2 client_type=ACDS part=0
+   Mon Jul 18 05:30:06 2016 esa_smpp smpp.C:125
+CDR_DATACOLLECTIONMWI   -- -- ---- NNI=303 mbox=9052734246 called=9052734246 sub_min=na attempts=10 reqMWI=1 result=1 notif_type=5 notif_proto=0 n_unheard=4 proxy_nni=0
+
+
+===============   CDRs for (ms04)  =================
+
+
+   Fri Jul 15 05:09:16 2016 SCE:MSG create_aacallermenu_cdr.c:45
+CDR_AACALLERMENU   -- -- ---- NNI=4 port=128 mbox=9052788225 CDRSID=10.92.11.116.0x2fa88857c4d00400 dest_type=M caller_digits=1 COS=675 dest_telno=9052734246 part=0
+   Fri Jul 15 05:09:56 2016 SCE:MSG create_aacallermenu_cdr.c:45
+CDR_AACALLERMENU   -- -- ---- NNI=4 port=128 mbox=9052788225 CDRSID=10.92.11.116.0x2fa88857c4d00400 dest_type=T caller_digits=2 COS=675 dest_telno=4163533487 part=0
+   Mon Jul 18 05:26:23 2016 SCE:MSG create_aacallermenu_cdr.c:45
+CDR_AACALLERMENU   -- -- ---- NNI=4 port=934 mbox=9052788225 CDRSID=10.92.11.116.0xb9a08c579f070400 dest_type=M caller_digits=1 COS=675 dest_telno=9052734246 part=0
+   Mon Jul 18 05:27:03 2016 SCE:MSG create_aacallermenu_cdr.c:45
+CDR_AACALLERMENU   -- -- ---- NNI=4 port=934 mbox=9052788225 CDRSID=10.92.11.116.0xb9a08c579f070400 dest_type=T caller_digits=2 COS=675 dest_telno=4163533487 part=0
+
+
+===============   CDRs for (ms05)  =================
+
+
+   Tue Jul 12 06:59:53 2016 sip_notif sip_notif.C:214
+CDR_DATACOLLECTIONMWI   -- -- ---- NNI=5 mbox=9052734246 called=9052734246 sub_min=na attempts=5 reqMWI=0 result=1 notif_type=2 notif_proto=6 n_unheard=0 proxy_nni=-1
+   Fri Jul 15 06:41:36 2016 SCE:MSG create_aacallermenu_cdr.c:45
+CDR_AACALLERMENU   -- -- ---- NNI=5 port=578 mbox=9052788225 CDRSID=10.92.11.116.0xcfbd885787f00500 dest_type=M caller_digits=9 COS=675 dest_telno=5197479111 part=0
+
+
+===============   CDRs for (ms06)  =================
+
+
+
+
+===============   CDRs for (ms07)  =================
+
+
+
+
+===============   CDRs for (ms08)  =================
+
+
+
+
+===============   CDRs for (ms09)  =================
+
+
+
+
+===============   CDRs for (ms10)  =================
+
+
+
+
+===============   CDRs for (ms11)  =================
+
+
+
+
+===============   CDRs for (ms12)  =================
+
+
+
+
+===============   CDRs for (ms13)  =================
